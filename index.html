@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-img"><a href="https://github.com/JoaoMNZ" target="_blank"><img src="imagens/256_index.png" alt="Furia"></a></div>
+        <div class="header-info">
+            <a href="#"><p>About</p></a> 
+            <a href="#"><p>Projects</p></a> 
+            <a href="#"><p>Experience</p></a> 
+            <a href="#"><p>Contact</p></a>
+        </div>
+        <div class="header-social">
+            <a href="https://www.facebook.com" target="_blank"><img src="imagens/facebook (1).png" alt="facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="imagens/instagram.png" alt="Instagram"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="imagens/twitter.png" alt="twitter"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="imagens/youtube.png" alt="youtube"></a>
+            <a href="https://www.tiktok.com" target="_blank"><img src="imagens/tik-tok.png" alt="tiktok"></a>
+        </div>
+    </header>
+    <section class="form">
+        <form action="cadastro.php" method="post">
+            <p>Login Form</p>
+            <label for="iUser">Username</label>
+            <input type="text" name="User" id="iUser" minlength="5" required>
+            <label for="iSen">Password</label>
+            <input type="password" name="Sen" id="iSen" maxlength="8" minlength="8" required>
+            <input type="submit" value="Login" id="diff">
+            <p id="diff">Don't have an account? <a href="#">Signup</a></p>
+        </form>
+    </section>
+</body>
+</html>
